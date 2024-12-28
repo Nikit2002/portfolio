@@ -1,0 +1,910 @@
+@media screen and (min-width: 1100px) {
+    .scroller{
+        left: 0px;
+    }
+    .burger-icon-open{
+        display: none;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    header{
+        width: 970px;
+    }
+    .timeline-content-up{
+        left: 0px;
+        right: 0px;
+    }
+    .timeline-content-down{
+        left: 0px;
+        right: 0px;
+    }
+    .scroller{
+        left: 0px;
+    }
+    .portfolio{
+        max-width: 1000px;
+    }
+    .portfolio-carousel{
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1095px) {
+    .menu-item{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    header{
+        width: 890px;
+    }
+    .socials{
+        display: none;
+    }
+    .dropdown-socials{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .role-name{
+        font-size: 60px;
+        display: grid;
+    }
+    .scroller[data-animated="true"] {
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio-arrows{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 966px) and (max-width: 1100px) {
+    .burger-icon-open{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .menu-item, .socials, .dropdown-container{
+        display: none;
+    }
+    .dropdown-socials a{
+        display: none;
+    }
+    .burger-icon-open{
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    .menu-item{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .timeline-content-up{
+        width: 400px;
+    }
+    .timeline-content-down{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .preferences-items{
+        width: 900px;
+    }
+    .pricing-blocks{
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .portfolio-arrows{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .preferences-items{
+        width: 410px;
+    }
+    .preferences-item{
+        margin: 100px auto;
+    }
+    .pricing-blocks{
+        width: 410px;
+    }
+    .pricing-block{
+        margin: 100px auto;
+    }
+    .name-field{
+        width: 600px;
+    }
+    .email-field{
+        width: 600px;
+    }
+    .message-field{
+        width: 600px;
+    }
+    .form-message-show{
+        width: 600px;
+    }
+    .form-attention, .form-success, .form-fail{
+        font-size: 20px;
+    }
+    .submit-form{
+        margin-left: 52.5%;
+    }
+    .form-message-show{
+        width: 600px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 799px){
+    .dropdown-container{
+        margin-left: -10px;
+    }
+    .menu-item{
+        font-size: 16px;
+    }
+    .diploma-row{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        z-index: 100;
+        bottom: 200px;
+    }
+    .titles-row{
+        grid-auto-flow: row;
+        bottom: 1760px;
+        gap: 220px;
+    }
+    .shelfs-row{
+        display: flex;
+        bottom: 3340px;
+        gap: 186px;
+    }
+    #shelf-diploma{
+        width: 400px;
+        height: 71px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        display: none;
+        justify-content: center;
+        position: relative;
+        bottom: 600px;
+    }
+    .program-languages{
+        bottom: 3250px;
+    }
+    .scroller[data-animated="true"]{
+        overflow: visible;
+    }
+    .portfolio{
+        bottom: 3450px;
+    }
+    .timeline{
+        bottom: 3850px;
+    }
+    .preferences{
+        bottom: 3300px;
+    }
+    .pricing{
+        bottom: 3300px;
+    }
+    .contact{
+        bottom: 3400px;
+    }
+    footer{
+        bottom: 3400px;
+    }
+    .diploma-and-titles{
+        display: grid;
+    }
+    .diploma-and-titles-desktop{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 770px) {
+    .portfolio-arrows{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .role-name{
+        font-size: 40px;
+        display: grid;
+    }
+    .preferences, .pricing, .contact{
+        bottom: 1200px;
+    }
+    .name-field, .email-field, .message-field{
+        width: 400px;
+    }
+    .form-message-show{
+        width: 400px;
+    }
+    .form-attention, .form-success, .form-fail{
+        font-size: 20px;
+    }
+    .preferences{
+	bottom: 1800px;
+    }
+    .pricing{
+        bottom: 1800px;
+    }
+    .contact{
+        bottom: 1800px;
+    }
+    .submit-form {
+        margin-left: 41%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .role-name{
+        font-size: 40px;
+    }
+    .portfolio-title-active{
+        width: 500px;
+        left: 185px;
+    }
+    .portfolio-name-active{
+        width: 500px;
+        left: 185px;
+    }
+    .portfolio-desc-active{
+        width: 500px;
+        left: 185px;
+    }
+    .portfolio-full-desc-active{
+        width: 500px;
+        left: 185px;
+    }
+    .portfolio-lang-icons{
+        width: 500px;
+        left: 185px;
+    }
+    .view-active{
+        width: 300px;
+    }
+    .full-active{
+        width: 300px;
+    }
+    .preferences{
+        bottom: 1000px;
+    }
+    .pricing{
+        bottom: 1000px;
+    }
+    .contact{
+        bottom: 1200px;
+    }
+    footer{
+        position: relative;
+        bottom: 1200px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .portfolio-arrows{
+        width: 63%;
+    }
+    .portfolio-arrow{
+        padding: 5px;
+        width: 25px;
+        height: 25px;
+    }
+    #portfolio-shelf{
+        bottom: 877px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .timeline-content-down{
+        bottom: 675px;
+    }
+    hr, .dot{
+        display: none;
+    }
+    .content-up{
+        bottom: 0;
+        right: 0;
+        margin-top: 20px;
+    }
+    .content-down{
+        bottom: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+    .content-up:nth-child(1), .content-up:nth-child(3), .content-up:nth-child(5) {
+        right: 30px;
+    }
+    .content-up:nth-child(2), .content-up:nth-child(4), .content-up:nth-child(6) {
+        left: -30px;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .portfolio-arrows{
+        width: 62%;
+    }
+    .portfolio-arrow{
+        padding: 5px;
+        width: 20px;
+        height: 20px;
+    }
+    #portfolio-shelf{
+        bottom: 875px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .tablet{
+        left: 200px;
+    }
+    .tablet-2{
+        left: 200px;
+    }
+    .tablet-3{
+        left: 200px;
+    }
+    .phone{
+        left: 628px;
+    }
+    .phone-2{
+        left: 628px;
+    }
+    .phone-3{
+        left: 628px;
+    }
+    .portfolio-arrows{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .portfolio-arrows{
+        width: 57%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .timeline-content-up {
+        gap: 120px;
+    }
+    .timeline-content-down {
+        bottom: 620px;
+        gap: 120px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .macbook{
+        width: 300px;
+        top: 90px;
+        left: 150px;
+    }
+    .macbook-2{
+        width: 300px;
+        top: 90px;
+        left: 150px;
+    }
+    .macbook-3{
+        width: 300px;
+        top: 90px;
+        left: 150px;
+    }
+    .tablet{
+        width: 100px;
+        height: 150px;
+        bottom: 80px;
+        left: 250px;
+    }
+    .tablet-2{
+        width: 100px;
+        height: 150px;
+        bottom: 80px;
+        left: 250px;
+    }
+    .tablet-3{
+        width: 100px;
+        height: 150px;
+        bottom: 80px;
+        left: 250px;
+    }
+    .phone{
+        width: 50px;
+        height: 100px;
+        bottom: 185px;
+        left: 540px;
+    }
+    .phone-2{
+        width: 50px;
+        height: 100px;
+        bottom: 185px;
+        left: 540px;
+    }
+    .phone-3{
+        width: 50px;
+        height: 100px;
+        bottom: 185px;
+        left: 540px;
+    }
+    .portfolio-title-active {
+        width: 300px;
+        left: 300px;
+        bottom: 193px;
+        padding: 10px;
+    }
+    .portfolio-name-active {
+        width: 300px;
+        left: 300px;
+        bottom: 193px;
+        padding: 10px;
+    }
+    .portfolio-desc-active {
+        width: 300px;
+        left: 300px;
+        bottom: 193px;
+        padding: 10px;
+    }
+    .portfolio-full-desc-active{
+        width: 300px;
+        left: 300px;
+        bottom: 193px;
+        padding: 10px;
+    }
+    .portfolio-lang-icons{
+        width: 300px;
+        left: 300px;
+        bottom: 173px;
+        padding: 10px;
+    }
+    .portfolio-buttons-active{
+        bottom: 50px;
+        flex-direction: column;
+        left: 160px;
+        gap: 20px;
+    }
+    .view-active {
+        width: 300px;
+        padding: 5px;
+    }
+    .full-active {
+        width: 300px;
+        padding: 5px;
+    }
+    .screens{
+        margin-left: 40px;
+    }
+    .lang-icon img{
+        left: 19px;
+    }
+    .usual.icon{
+        left: 19px;
+    }
+    .php.icon{
+        left: 19px;
+    }
+    .lang-hover.icon-hover.usual-hover{
+        bottom: 67px;
+    }
+    .lang-hover.icon-hover{
+        bottom: 64px;
+    }
+    .lang-hover.icon-hover.php-hover{
+        bottom: 72px;
+    }
+    .portfolio-arrows{
+        bottom: 620px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .portfolio-arrows{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .portfolio-arrows{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .role-name{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
+    .heading, .port-heading, .resume, .pref-heading, .name-field, .email-field, .message-field, .form-message-show{
+        width: 300px;
+    }
+    .form-message-show{
+        width: 300px;
+    }
+    .form-attention, .form-success, .form-fail{
+        font-size: 18px;
+    }
+    .pricing-block{
+        border: none;
+    }
+    .submit-form{
+        left: -65px;
+        width: 300px;
+    }
+    .portfolio-arrows{
+        width: 38%;
+    }
+    .tablet{
+        width: 100px;
+        height: 150px;
+        bottom: 80px;
+        left: 270px;
+    }
+    .tablet-2{
+        width: 100px;
+        height: 150px;
+        bottom: 80px;
+        left: 270px;
+    }
+    .tablet-3{
+        width: 100px;
+        height: 150px;
+        bottom: 80px;
+        left: 270px;
+    }
+    .phone{
+        width: 50px;
+        height: 100px;
+        bottom: 185px;
+        left: 530px;
+    }
+    .phone-2{
+        width: 50px;
+        height: 100px;
+        bottom: 185px;
+        left: 530px;
+    }
+    .phone-3{
+        width: 50px;
+        height: 100px;
+        bottom: 185px;
+        left: 530px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .portfolio-arrows{
+        width: 36.5%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .burger-icon-open{
+        left: 80%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .macbook {
+        width: 300px;
+        bottom: 20px;
+        left: 143px;
+    }
+    .macbook-2 {
+        width: 300px;
+        bottom: 20px;
+        left: 143px;
+    }
+    .macbook-3 {
+        width: 300px;
+        bottom: 20px;
+        left: 143px;
+    }
+    .tablet {
+        display: none;
+    }
+    .tablet-2 {
+        display: none;
+    }
+    .tablet-3 {
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .phone-2{
+        display: none;
+    }
+    .phone-3{
+        display: none;
+    }
+    .portfolio-title-active {
+        top: 65px;
+    }
+    .portfolio-name-active {
+        top: 62px;
+    }
+    .portfolio-desc-active {
+        top: 62px;
+    }
+    .portfolio-full-desc-active{
+        top: 62px;
+    }
+    .portfolio-lang-icons{
+        top: 82px;
+    }
+    .portfolio-buttons-active{
+        bottom: 0px;
+        top: 220px;
+    }
+    .portfolio-arrows{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .macbook {
+        width: 250px;
+        bottom: auto;
+        top: 110px;
+        left: 143px;
+    }
+    .macbook-2 {
+        width: 250px;
+        bottom: auto;
+        top: 110px;
+        left: 143px;
+    }
+    .macbook-3 {
+        width: 250px;
+        bottom: auto;
+        top: 110px;
+        left: 143px;
+    }
+    .portfolio-arrows{
+        width: 27%;
+        bottom: 610px;
+    }
+    .portfolio-arrow{
+        width: 15px;
+        height: 15px;
+    }
+    .portfolio-title-active {
+        top: 90px;
+    }
+    .portfolio-name-active {
+        top: 90px;
+    }
+    .portfolio-desc-active {
+        top: 90px;
+    }
+    .portfolio-full-desc-active{
+        top: 90px;
+    }
+    .portfolio-lang-icons{
+        top: 112px;
+    }
+    .portfolio-buttons-active{
+        bottom: 0px;
+        top: 220px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .content-up{
+        left: 0px;
+        right: 0px;
+        bottom: 0;
+        margin-top: 20px;
+    }
+    .content-down{
+        left: 0px;
+        right: 0px;
+        bottom: 0;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .role-name{
+        font-size: 26px;
+    }
+    .heading-pref{
+        width: 200px;
+    }
+    .text-pref{
+        width: 200px;
+    }
+    .pricing-block{
+        border: none;
+    }
+    .name-field{
+        width: 200px;
+    }
+    .email-field{
+        width: 200px;
+    }
+    .message-field{
+        width: 200px;
+    }
+    .form-message-show{
+        width: 200px;
+    }
+    .form-attention, .form-success, .form-fail{
+        font-size: 16px;
+    }
+    .portfolio-title-active, .portfolio-name-active, .portfolio-desc-active, .portfolio-full-desc-active, .portfolio-lang-icons{
+        width: 200px;
+        left: 340px;
+    }
+    .submit-form{
+        left: -20px;
+        width: 200px;
+    }
+    .heading, .pref-heading, .port-heading, .resume{
+        width: 200px;
+    }
+    .view-active {
+        width: 200px;
+        padding: 0;
+    }
+    .full-active {
+        width: 200px;
+        padding: 0;
+    }
+    .heading-pricing, .text-pricing{
+        width: 200px;
+    }
+    .usd, .uah, .usd-premium, .uah-premium{
+        width: 100px;
+    }
+    .portfolio-buttons-active{
+        left: 150px;
+    }
+    .macbook {
+        left: 133px;
+    }
+    .macbook-2 {
+        left: 133px;
+    }
+    .macbook-3 {
+        left: 133px;
+    }
+    .lang-icon img{
+        left: 13px;
+    }
+    .usual.icon{
+        left: 13px;
+    }
+    .php.icon{
+        left: 13px;
+    }
+    .lang-hover.icon-hover{
+        bottom: 57px;
+    }
+    .lang-hover.icon-hover.usual-hover{
+        bottom: 59px;
+    }
+    .lang-hover.icon-hover.php-hover{
+        bottom: 62px;
+    }
+    .content-up:nth-child(1), .content-up:nth-child(3), .content-up:nth-child(5) {
+       left: -25px;
+    }
+    .content-up:nth-child(2), .content-up:nth-child(4), .content-up:nth-child(6) {
+        left: -25px;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .portfolio-arrows{
+        width: 25%;
+        bottom: 610px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .photo-bckgrd img{
+        width: 280px;
+    }
+    .role-name{
+        font-size: 20px;
+    }
+    .portfolio-arrows{
+        width: 24%;
+        right: 3px;
+    }
+}
+
+@media screen and (max-width: 299px) {
+    .content-up{
+        padding: 10px;
+    }
+    .content-down{
+        padding: 0;
+    }
+    .timeline-container{
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .burger-icon-open{
+        left: 75%;
+    }
+}
+
+@media screen and (max-width: 288px) {
+    main{
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .submit-form{
+        left: -21px;
+    }
+    .preferences{
+        bottom: 3800px;
+    }
+    .pricing{
+        bottom: 3800px;
+    }
+    .contact{
+        bottom: 4000px;
+    }
+    footer{
+        margin-left: -10%;
+        bottom: 3400px;
+    }
+    .portfolio-carousel{
+        position: relative;
+        bottom: 300px;
+    }
+    .portfolio-arrows{
+        bottom: 910px;
+    }
+    #portfolio-shelf {
+        bottom: 1176px;
+    }
+    .timeline{
+        bottom: 4250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Web-portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/portfolio-carousel.js" defer></script>
+    <script src="js/scroll-animation-top.js" defer></script>
+    <script src="js/currency-selector.js" defer></script>
+    <script src="js/language-selector.js" defer></script>
+    <script src="js/translations.js" defer></script>
+    <script src="js/show-full-description.js" defer></script>
+    <script src="js/languages-show-hide.js" defer></script>
+    <script src="js/socials-show-hide.js" defer></script>
+    <script src="js/timeline-animation.js" defer></script>
+    <script src="js/form-message.js" defer></script>
+    <script src="js/burger-menu.js" defer></script>
+    <script src="js/auto-scroller.js" defer></script>
+    <link rel="stylesheet" href="media-css/media.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+        <nav>
+            <div class="full-menu">
+                <a href="#" class="text-logo">ND</a>
+                <!-- <div class="menu"> -->
+                <a href="index.html" class="menu-item" id="home-menu">Home</a>
+                <a href="#about" class="menu-item" id="about-menu">About</a>
+                <a href="#portfolio" class="menu-item" id="portfolio-menu">Portfolio</a>
+                <a href="#pricing" class="menu-item" id="pricing-menu">Pricing</a>
+                <a href="#contact" class="menu-item" id="contact-menu">Contact</a>
+                <!-- </div> -->
+
+                <div class="socials">
+                <a href="https://www.linkedin.com/in/mykyta-dubinin-1238682a3/" class="fab fa-brands fa-linkedin-in"></a>
+                <a href="https://www.linkedin.com/in/mykyta-dubinin-1238682a3/" class="fab fa-brands fa-linkedin-in"></a>
+                <a href="https://www.linkedin.com/in/mykyta-dubinin-1238682a3/" class="fab fa-brands fa-linkedin-in"></a>
+                </div>
+
+                <div class="dropdown-socials">
+                    <a href="#" class="fab fa-regular fa-message" id="show-hide-socials"></a>
+                    <div class="dropdown-content">
+                        <a href="https://www.linkedin.com/in/mykyta-dubinin-1238682a3/" class="fab fa-brands fa-linkedin-in"></a>
+                        <a href="https://www.linkedin.com/in/mykyta-dubinin-1238682a3/" class="fab fa-brands fa-linkedin-in"></a>
+                        <a href="https://www.linkedin.com/in/mykyta-dubinin-1238682a3/" class="fab fa-brands fa-linkedin-in"></a>
+                    </div>
+                  </div>
+
+                <div class="dropdown-container" >
+                    <a href="#" class="fas fa-light fa-globe" id="show-hide"></a>
+                    <ul class="sub-links">
+                        <li><a class="sub-link" href="#" onclick="changeLang('en')">EN</a></li>
+                        <li><a class="sub-link" href="#" onclick="changeLang('ua')">UA</a></li>
+                    </ul>
+                    
+                </div>
+
+                <img src="img/icon-burger-menu.svg" alt="" class="burger-icon-open">
+            </div>
+
+            
+            <div class="burger-menu">
+                <img src="img/icon-circled-x.svg" alt="" class="burger-icon">
+                <a href="index.html" class="burger-menu-item" id="burger-home-menu">Home</a>
+                <a href="#about" class="burger-menu-item" id="burger-about-menu">About</a>
+                <a href="#portfolio" class="burger-menu-item" id="burger-portfolio-menu">Portfolio</a>
+                <a href="#pricing" class="burger-menu-item" id="burger-pricing-menu">Pricing</a>
+                <a href="#contact" class="burger-menu-item" id="burger-contact-menu">Contact</a>
+            
+                <div class="round-buttons">
+
+                <div class="burger-socials">
+                    <a href="https://www.linkedin.com/in/nikita-dubinin-1238682a3/" class="fab fa-brands fa-linkedin-in"></a>
+                    <a href="https://www.linkedin.com/in/nikita-dubinin-1238682a3/" class="fab fa-brands fa-linkedin-in"></a>
+                    <a href="https://www.linkedin.com/in/nikita-dubinin-1238682a3/" class="fab fa-brands fa-linkedin-in"></a>
+                </div>
+
+                <ul class="burger-sub-links">
+                    <li><a class="burger-sub-link" href="#" onclick="changeLang('en')">EN</a></li>
+                    <li><a class="burger-sub-link" href="#" onclick="changeLang('ua')">UA</a></li>
+                </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <section class="image">
+            <marquee behavior="" direction="right" id="first-name">Nikita</marquee>
+            <div class="photo-block reveal">
+                <div class="photo-bckgrd">
+                </div>
+                <img src="img/render.png" alt="">
+                
+                <br>                
+            </div>
+            <marquee behavior="" direction="left" id="last-name">Dubinin</marquee>
+        </section>
+        <section class="role">
+            <h2 class="role-name reveal" id="role">Fullstack developer</h2>
+            <a href="resume/Resume.docx" title=""download class="resume reveal"><i class="fa fa-download"></i>Download My resume</a>
+        </section>
+
+
+
+        
+        <section class="diploma reveal" id="about">
+            <div class="diploma-bgr"></div>
+            <div class="heading">
+                <h2 id="head-diplomas">Diplomas and Certificates</h2>
+            </div>
+            <section class="diploma-and-titles">
+            <div class="diploma-row">
+                <a data-fancybox="gallery" href="certificates/Certificate-1.jpg"><img src="certificates/Certificate-1.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-2.jpg"><img src="certificates/Certificate-2.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-3.jpg"><img src="certificates/Certificate-3.jpg"></a>
+                <a data-fancybox="gallery" href="certificates/Certificate-4.jpg"><img src="certificates/Certificate-4.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-5.jpg"><img src="certificates/Certificate-5.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-6.jpg"><img src="certificates/Certificate-6.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-7.jpg"><img src="certificates/Certificate-7.jpg"></a>
+            </div>
+            
+            <div class="titles-row">
+                <div class="titles">
+                    <h2>HTML5 & CSS3 Starter</h2>
+                </div>
+                <div class="titles">
+                    <h2>JAVASCRIPT Starter</h2>
+                </div>
+                <div class="titles">
+                    <h2>Figma.Online store design</h2>
+                </div>
+                <div class="titles">
+                    <h2>The basics of using Git</h2>
+                </div>
+                <div class="titles">
+                    <h2>JAVASCRIPT Essential</h2>
+                </div>
+                <div class="titles">
+                    <h2>HTML5 & CSS3 Advanced</h2>
+                </div>
+                <div class="titles">
+                    <h2>IT English</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="diploma-and-titles-desktop">
+            <div class="diploma-row-desktop">
+                <a data-fancybox="gallery" href="certificates/Certificate-1.jpg"><img src="certificates/Certificate-1.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-2.jpg"><img src="certificates/Certificate-2.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-3.jpg"><img src="certificates/Certificate-3.jpg"></a>
+            </div>
+
+            <div class="titles-row-desktop">
+                <div class="titles">
+                    <h2>HTML5 & CSS3 Starter</h2>
+                </div>
+                <div class="titles">
+                    <h2>JAVASCRIPT Starter</h2>
+                </div>
+                <div class="titles">
+                    <h2>Figma.Online store design</h2>
+                </div>
+            </div>
+
+            <div id="shelf-diploma">
+
+                <div class="top"></div>
+                <div class="front"></div>
+                <div class="shadow"></div>
+                </div>
+
+            <div class="diploma-row-desktop">
+                <a data-fancybox="gallery" href="certificates/Certificate-4.jpg"><img src="certificates/Certificate-4.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-5.jpg"><img src="certificates/Certificate-5.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-6.jpg"><img src="certificates/Certificate-6.jpg"></a>
+            </div>
+
+            <div class="titles-row-desktop">
+                <div class="titles">
+                    <h2>The basics of using Git</h2>
+                </div>
+                <div class="titles">
+                    <h2>JAVASCRIPT Essential</h2>
+                </div>
+                <div class="titles">
+                    <h2>HTML5 & CSS3 Advanced</h2>
+                </div>
+            </div>
+
+            <div id="shelf-diploma">
+
+                <div class="top"></div>
+                <div class="front"></div>
+                <div class="shadow"></div>
+                </div>
+
+            <div class="diploma-row-desktop">
+                <a data-fancybox="gallery" href="certificates/Certificate-7.jpg"><img src="certificates/Certificate-7.jpg"></a>
+		        <a data-fancybox="gallery" href="certificates/Certificate-5.jpg"><img src="certificates/Certificate-5.jpg"></a>
+            </div>
+
+            <div class="titles-row-desktop">
+                <div class="titles">
+                    <h2>IT English</h2>
+                </div>
+                <div class="titles">
+                    <h2>JAVASCRIPT Essential</h2>
+                </div>
+            </div>
+
+            <div id="shelf-diploma">
+
+                <div class="top"></div>
+                <div class="front"></div>
+                <div class="shadow"></div>
+                </div>
+        </section>
+
+            <div class="shelfs-row">
+
+                <div id="shelfs">
+
+                    <div class="top-shelfs"></div>
+                    <div class="front-shelfs"></div>
+                    <div class="shadow-shelfs"></div>
+                </div>
+                
+                <div id="shelfs">
+
+                    <div class="top-shelfs"></div>
+                    <div class="front-shelfs"></div>
+                    <div class="shadow-shelfs"></div>
+                </div>    
+
+                <div id="shelfs">
+
+                    <div class="top-shelfs"></div>
+                    <div class="front-shelfs"></div>
+                    <div class="shadow-shelfs"></div>
+                </div>
+
+                <div id="shelfs">
+
+                    <div class="top-shelfs"></div>
+                    <div class="front-shelfs"></div>
+                    <div class="shadow-shelfs"></div>
+                </div>
+                
+                <div id="shelfs">
+
+                    <div class="top-shelfs"></div>
+                    <div class="front-shelfs"></div>
+                    <div class="shadow-shelfs"></div>
+                </div>    
+
+                <div id="shelfs">
+
+                    <div class="top-shelfs"></div>
+                    <div class="front-shelfs"></div>
+                    <div class="shadow-shelfs"></div>
+                </div>
+
+                <div id="shelfs">
+
+                    <div class="top-shelfs"></div>
+                    <div class="front-shelfs"></div>
+                    <div class="shadow-shelfs"></div>
+                </div>
+            </div>
+            
+
+           
+
+           
+        </section>
+
+        <section class="program-languages reveal">
+            <div class="diploma-bgr"></div>
+            <div class="heading">
+                <h2>Hard skills</h2>
+            </div>
+
+
+            <div class="scroller">
+                <div class="tag-list scroller__inner">
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-html5.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-html5-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-css3.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-css3-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-git.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-git-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-javascript.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-javascript-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-sass.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-sass-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-jquery.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-jquery-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-php.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-php-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-react-native.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-react-native-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-html5.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-html5-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-css3.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-css3-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-git.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-git-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-javascript.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-javascript-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-sass.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-sass-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-jquery.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-jquery-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-php.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-php-coloured.svg"></a>
+                    <a href="#"><img class="logo" src="hard-skills logos/icon-react-native.svg"></a>
+                    <a href="#"><img class="logo-hover" src="hard-skills logos/icon-react-native-coloured.svg"></a>
+                </div>
+              </div>
+             
+           <div id="shelf">
+
+           <div class="top"></div>
+           <div class="front"></div>
+           <div class="shadow"></div>
+           </div>
+           
+        </section>
+
+        <section class="portfolio reveal" id="portfolio">
+            <div class="diploma-bgr"></div>
+            <div class="port-heading">
+                <h2 id="head-portfolio">Portfolio</h2>
+            </div>
+
+            <div class="portfolio-carousel">
+                <div class="portfolio-item-active">
+                    <div class="screens">
+                       <div class="macbook" draggable="false">
+                        <div class="screen">
+                          <div class="viewport">
+                          </div>
+                        </div>
+                        <div class="base"></div>
+                        <div class="notch"></div>
+                      </div>
+                        <div class="tablet" draggable="false"></div>
+                        <div class="phone" draggable="false"></div>
+
+                    </div>
+
+                    <div class="portfolio-title-active" draggable="false">
+                        <h2 id="portfol-title-1">Internet Shop</h2>
+                    </div>
+                    <div class="portfolio-name-active" draggable="false">
+                        <span>Gear Autoparts</span>
+                    </div>
+                    <div class="portfolio-desc-active" draggable="false">
+                        <p id="portfol-desc-1">Lorem ipsum dolor sit amet...</p>
+                    </div>
+
+                    <div class="portfolio-full-desc-active" draggable="false">
+                        <p id="portfol-desc-1">Main task: Create responsive, user-friendly website for autoparts store <br> Stack used: HTML, CSS, JS, PHP</p>
+                    </div>
+
+                    <div class="portfolio-lang-icons" draggable="false">
+                        <div class="lang-icon">
+                            <a href="#"><img src="hard-skills logos/icon-html5.svg" alt="html5"></a>
+                        </div>
+                        <div class="lang-icon">
+                            <a href="#"><img src="hard-skills logos/icon-css3.svg" alt="css3" class="usual icon"></a>
+                        </div>
+                        <div class="lang-icon">
+                            <a href="#"><img src="hard-skills logos/icon-javascript.svg" alt="javascript"></a>
+                        </div>
+                        <div class="lang-icon">
+                            <a href="#"><img src="hard-skills logos/icon-php.svg" alt="php" class="php icon"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-buttons-active" draggable="false">
+                        <a href="#" class="view-active" id="demo-but">View Demo</a>
+                        <button class="full-active" id="full-but" onclick="showFullDescLeft()">Full Description</button>
+                    </div>   
+                </div>
+
+
+
+                <div class="portfolio-item-active">
+                    <div class="screens">
+                        <div class="macbook-2" draggable="false">
+                            <div class="screen-2">
+                              <div class="viewport-2">
+                              </div>
+                            </div>
+                            <div class="base-2"></div>
+                            <div class="notch-2"></div>
+                          </div>
+                        <div class="tablet-2" draggable="false"></div>
+                        <div class="phone-2" draggable="false"></div>
+ 
+                     </div>
+                    
+                    <div class="portfolio-title-active" draggable="false">
+                        <h2 id="portfol-title-2">Internet Shop</h2>
+                    </div>
+                    <div class="portfolio-name-active" draggable="false">
+                        <span>Luxury Watches</span>
+                    </div>
+                    <div class="portfolio-desc-active" draggable="false">
+                        <p id="portfol-desc-2">Lorem ipsum dolor sit amet...</p>
+                    </div>
+
+                    <div class="portfolio-full-desc-active" draggable="false">
+                        <p id="portfol-desc-1">Main task: Create responsive, user-friendly website for watches store <br> Stack used: HTML, CSS, JS</p>
+                    </div>
+
+                    <div class="portfolio-lang-icons" draggable="false">
+                        <div class="lang-icon">
+                            <a href="#"><img src="hard-skills logos/icon-html5.svg" alt="html5"></a>
+                        </div>
+                        <div class="lang-icon">
+                            <a href="#"><img src="hard-skills logos/icon-css3.svg" alt="css3" class="usual icon"></a>
+                        </div>
+                        <div class="lang-icon">
+                            <a href="#"><img src="hard-skills logos/icon-javascript.svg" alt="javascript"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-buttons-active" draggable="false">
+                        <a href="#" class="view-active" id="demo-but">View Demo</a>
+                        <button class="full-active" id="full-but" onclick="showFullDescCenter()">Full Description</button>
+                    </div> 
+                </div>
+
+
+                
+
+
+                <div class="portfolio-item-active">
+                        <div class="screens">
+                            <div class="macbook-3" draggable="false">
+                                <div class="screen-3">
+                                  <div class="viewport-3">
+                                  </div>
+                                </div>
+                                <div class="base-3"></div>
+                                <div class="notch-3"></div>
+                              </div>
+                            <div class="tablet-3" draggable="false"></div>
+                            <div class="phone-3" draggable="false"></div>
+     
+                         </div>
+                    
+                    <div class="portfolio-title-active" draggable="false">
+                        <h2 id="portfol-title-3">Business Card</h2>
+                    </div>
+                    <div class="portfolio-name-active" draggable="false">
+                        <span>Luxo</span>
+                    </div>
+                    <div class="portfolio-desc-active" draggable="false">
+                        <p id="portfol-desc-3">Lorem ipsum dolor sit amet...</p>
+                    </div>
+
+                    <div class="portfolio-full-desc-active" draggable="false">
+                        <p id="portfol-desc-1">Main task: Create responsive, user-friendly business card website<br> Stack used: HTML, CSS</p>
+                    </div>
+
+                    <div class="portfolio-lang-icons" draggable="false">
+                        <div class="lang-icon">
+                            <a href="#"><img src="hard-skills logos/icon-html5.svg" alt="html5"></a>
+                        </div>
+                        <div class="lang-icon">
+                            <a href="#"><img src="hard-skills logos/icon-css3.svg" alt="css3" class="usual icon"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-buttons-active" draggable="false">
+                        <a href="#" class="view-active" id="demo-but">View Demo</a>
+                        <button class="full-active" id="full-but" onclick="showFullDescRight()">Full Description</button>
+                    </div>  
+                </div>
+              </div>
+
+              <div class="portfolio-arrows">
+                <a href="#" class="portfolio-arrow" id="left"><img src="portfolio/portfolio-arrow-left.svg" alt=""></a>
+                <a href="#" class="portfolio-arrow" id="right"><img src="portfolio/portfolio-arrow-right.svg" alt=""></a>
+              </div>
+
+            </div>
+              
+
+           <div id="portfolio-shelf">
+
+           <div class="top"></div>
+           <div class="front"></div>
+           <div class="shadow"></div>
+           </div>
+           
+        </section>
+
+        <section class="timeline reveal">
+            <div class="diploma-bgr"></div>
+            <div class="heading">
+                <h2 id="head-work">Work Experience</h2>
+            </div>
+
+            <hr>
+
+            <ul class="timeline-list-items">
+                <li class="timeline-list-item">
+                    
+                   <div class="content-up ">
+                    <img src="timeline/company logos/tjc.png" alt="tjc">
+                    <div class="content-text">
+                    <h4>TJC</h4>
+                    <span id="timeline-role">Backend developer</span>
+                    <p>2022-2023</p>
+                    </div>
+                   </div>
+                   <a href="#" class="dot"></a>
+                </li>
+                <li class="timeline-list-item">
+                    <a href="#" class="dot"></a>
+                    <div class="content-up ">
+                     <img src="timeline/company logos/tjc.png" alt="tjc">
+                     <div class="content-text">
+                     <h4>TJC</h4>
+                     <span id="timeline-role">Backend developer</span>
+                     <p>2022-2023</p>
+                     </div>
+                    </div>
+                    
+                 </li>
+                 <li class="timeline-list-item">
+                    
+                    <div class="content-up ">
+                     <img src="timeline/company logos/tjc.png" alt="tjc">
+                     <div class="content-text">
+                     <h4>TJC</h4>
+                     <span id="timeline-role">Backend developer</span>
+                     <p>2022-2023</p>
+                     </div>
+                    </div>
+                    <a href="#" class="dot"></a>
+                 </li>
+                 <li class="timeline-list-item">
+                    <a href="#" class="dot"></a>
+                    <div class="content-up ">
+                     <img src="timeline/company logos/tjc.png" alt="tjc">
+                     <div class="content-text">
+                     <h4>TJC</h4>
+                     <span id="timeline-role">Backend developer</span>
+                     <p>2022-2023</p>
+                     </div>
+                    </div>
+                    
+                 </li>
+                 <li class="timeline-list-item">
+                    
+                    <div class="content-up ">
+                     <img src="timeline/company logos/tjc.png" alt="tjc">
+                     <div class="content-text">
+                     <h4>TJC</h4>
+                     <span id="timeline-role">Backend developer</span>
+                     <p>2022-2023</p>
+                     </div>
+                    </div>
+                    <a href="#" class="dot"></a>
+                 </li>
+                 <li class="timeline-list-item">
+                    <a href="#" class="dot"></a>
+                    <div class="content-up ">
+                     <img src="timeline/company logos/tjc.png" alt="tjc">
+                     <div class="content-text">
+                     <h4>TJC</h4>
+                     <span id="timeline-role">Backend developer</span>
+                     <p>2022-2023</p>
+                     </div>
+                    </div>
+                    
+                 </li>
+            </ul>
+
+        </section>
+        
+        <section class="preferences reveal">
+        <div class="diploma-bgr"></div>
+            <div class="pref-heading">
+                <h2 id="head-prefer">Preferences</h2>
+            </div>
+        
+        <div class="preferences-items">
+            <div class="preferences-item reveal">
+                <div class="round-icon-coding"></div>
+                <div class="heading-pref">
+                    <h2 id="web-dev">Web Development</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+            </div>
+
+            <div class="preferences-item reveal">
+                <div class="round-icon-responsive"></div>
+                <div class="heading-pref">
+                    <h2 id="respons-dev">Responsive Development</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pref">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+            </div>
+
+            
+            
+        </div>
+    </section>
+
+    <section class="pricing reveal" id="pricing">
+        <div class="diploma-bgr"></div>
+            <div class="heading">
+                <h2 id="pricing-section-txt">Pricing</h2>
+            </div>
+
+        <div class="pricing-blocks">
+            <div class="pricing-block reveal">
+                <div class="heading-pricing">
+                    <h2 id="bas-pricing">Basic Pricing</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="price-pricing">
+                    <span class="price-pricing-span-usd">$1000</span>
+                    <span class="price-pricing-span-uah">40 000₴</span>
+                </div>
+                <div class="currency-selector">
+                    <button class="usd" onclick="changeUSD()">$USD</button>
+                    <button class="uah" onclick="changeUA()">UAH ₴</button>
+                </div>
+            </div>
+
+            <div class="pricing-block reveal">
+                <div class="heading-pricing">
+                    <h2 id="pr-pricing">Premium Pricing</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="text-pricing">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+                <div class="price-pricing">
+                    <span class="price-pricing-span-usd-premium">$2000</span>
+                    <span class="price-pricing-span-uah-premium">80 000₴</span>
+                </div>
+                <div class="currency-selector">
+                    <button class="usd-premium" onclick="changeUSDpr()">$USD</button>
+                    <button class="uah-premium" onclick="changeUApr()">UAH ₴</button>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <section class="contact reveal" id="contact">
+        <div class="diploma-bgr"></div>
+            <div class="heading">
+                <h2 id="contact-section-txt">Contact</h2>
+            </div>
+    
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="2d7ae73d-7b7e-4862-a921-823e1e38c6fe">
+                <input type="text" name="name" id="name-field" class="name-field" placeholder="Your Name" data-translate="name-field" required>
+                <input type="email" name="email" id="email-field" class="email-field" placeholder="Your Email" data-translate="email-field" required>
+                <textarea name="message" id="message-field" cols="30" rows="10" placeholder="Enter your Message" class="message-field" required></textarea>
+                <div class="form-message">
+                    <p class="form-success">Form submitted successfully!</p>
+                    <p class="form-fail">Error occuried. Please, try again.</p>
+                </div>
+                <button type="submit" id="sub-field" class="submit-form">Submit</button>
+                
+            </form>
+            
+            
+    
+    </section>
+    </main>
+    <footer>
+        <p id="made-by">© <a href="https://www.linkedin.com/in/mykyta-dubinin-1238682a3/" id="full-name-copyright" class="full-name">Nikita Dubinin</a>, 2024</p>
+    </footer>
+</body>
+</html>
