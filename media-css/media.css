@@ -137,16 +137,17 @@
     .message-field{
         width: 600px;
     }
-    .form-message-show{
-        width: 600px;
-    }
-    .form-attention, .form-success, .form-fail{
+    .form-attention, .form-success, .form-fail, .form-unavailable{
         font-size: 20px;
     }
     .submit-form{
         margin-left: 52.5%;
     }
     .form-message-show{
+        width: 600px;
+        font-size: 20px;
+    }
+    .form-info{
         width: 600px;
         font-size: 20px;
     }
@@ -240,7 +241,10 @@
     .form-message-show{
         width: 400px;
     }
-    .form-attention, .form-success, .form-fail{
+    .form-info{
+        width: 400px;
+    }
+    .form-attention, .form-success, .form-fail, .form-unavailable{
         font-size: 20px;
     }
     .preferences{
@@ -539,13 +543,13 @@
 
 @media screen and (max-width: 440px) {
     
-    .heading, .port-heading, .resume, .pref-heading, .name-field, .email-field, .message-field, .form-message-show{
+    .heading, .port-heading, .resume, .pref-heading, .name-field, .email-field, .message-field, .form-message-show, .form-info{
         width: 300px;
     }
     .form-message-show{
         width: 300px;
     }
-    .form-attention, .form-success, .form-fail{
+    .form-attention, .form-success, .form-fail, .form-unavailable{
         font-size: 18px;
     }
     .pricing-block{
@@ -752,7 +756,10 @@
     .form-message-show{
         width: 200px;
     }
-    .form-attention, .form-success, .form-fail{
+    .form-info{
+        width: 200px;
+    }
+    .form-attention, .form-success, .form-fail, .form-unavailable{
         font-size: 16px;
     }
     .portfolio-title-active, .portfolio-name-active, .portfolio-desc-active, .portfolio-full-desc-active, .portfolio-lang-icons{
