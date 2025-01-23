@@ -1,0 +1,701 @@
+@media screen and (min-width: 1100px) {
+    .scroller{
+        left: 0px;
+    }
+    .burger-icon-open{
+        display: none;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    header{
+        width: 970px;
+    }
+    .timeline-content-up{
+        left: 0px;
+        right: 0px;
+    }
+    .timeline-content-down{
+        left: 0px;
+        right: 0px;
+    }
+    .scroller{
+        left: 0px;
+    }
+    .portfolio{
+        max-width: 1000px;
+    }
+    .portfolio-carousel{
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1095px) {
+    .menu-item{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    header{
+        width: 890px;
+    }
+    .socials{
+        display: none;
+    }
+    .dropdown-socials{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .role-name{
+        font-size: 60px;
+        display: grid;
+    }
+    .scroller[data-animated="true"] {
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio-arrows{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 966px) and (max-width: 1100px) {
+    .burger-icon-open{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .menu-item, .socials, .dropdown-container{
+        display: none;
+    }
+    .dropdown-socials a{
+        display: none;
+    }
+    .burger-icon-open{
+        display: grid;
+    }
+    .full-menu-ua{
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    .menu-item{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .timeline-content-up{
+        width: 400px;
+    }
+    .timeline-content-down{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .preferences-items{
+        width: 900px;
+    }
+    .pricing-blocks{
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .portfolio-arrows{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .preferences{
+        min-height: 1800px;
+    }
+    .pricing{
+        min-height: 1872px;
+    }
+    .preferences-items{
+        width: 410px;
+    }
+    .preferences-item{
+        margin: 100px auto;
+    }
+    .pricing-blocks{
+        width: 410px;
+    }
+    .pricing-block{
+        margin: 100px auto;
+    }
+    .name-field{
+        width: 600px;
+    }
+    .email-field{
+        width: 600px;
+    }
+    .message-field{
+        width: 600px;
+    }
+    .form-message-show{
+        width: 600px;
+    }
+    .form-busy-message{
+        width: 600px;
+    }
+    .form-unavailable{
+        font-size: 20px;
+    }
+    .form-attention, .form-success, .form-fail{
+        font-size: 20px;
+    }
+    .submit-form{
+        width: 600px;
+    }
+    .submit-form__disabled{
+        width: 600px;
+    }
+    .form-message-show{
+        width: 600px;
+        font-size: 20px;
+    }
+    .form-busy-message{
+        width: 600px;
+    }
+    .form-unavailable{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 799px){
+    .dropdown-container{
+        margin-left: -10px;
+    }
+    .menu-item{
+        font-size: 16px;
+    }
+    .diploma__obj{
+        display: grid;
+    }
+    .diploma-row{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        z-index: 100;
+    }
+    .titles-row{
+        grid-auto-flow: row;
+        gap: 220px;
+    }
+    .shelfs-row{
+        display: flex;
+        gap: 225px;
+    }
+    #shelf-diploma{
+        width: 400px;
+        height: 71px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        display: none;
+        justify-content: center;
+        position: relative;
+    }
+    .scroller[data-animated="true"]{
+        overflow: visible;
+    }
+    .preferences{
+        min-height: 1800px;
+    }
+    .pricing{
+        min-height: 2072px;
+    }
+    .diploma-and-titles{
+        display: grid;
+    }
+    .diploma-and-titles-desktop{
+        display: none;
+    }
+    .heading h2{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 770px) {
+    .portfolio-arrows{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .role-name{
+        font-size: 40px;
+        display: grid;
+    }
+    .name-field, .email-field, .message-field{
+        width: 400px;
+    }
+    .form-message-show{
+        width: 400px;
+    }
+    .form-busy-message{
+        width: 400px;
+    }
+    .form-unavailable{
+        font-size: 20px;
+    }
+    .form-attention, .form-success, .form-fail{
+        font-size: 20px;
+    }
+    .submit-form {
+        width: 400px;
+    }
+    .submit-form__disabled {
+        width: 400px;
+    }
+    .email__support{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .role-name{
+        font-size: 40px;
+    }
+    .portfolio-title-active{
+        width: 500px;
+    }
+    .portfolio-name-active{
+        width: 500px;
+    }
+    .portfolio-desc-active{
+        width: 500px;
+    }
+    .portfolio-full-desc-active{
+        width: 500px;
+    }
+    .portfolio-lang-icons{
+        width: 500px;
+    }
+    .view-active{
+        width: 300px;
+    }
+    .full-active{
+        width: 300px;
+    }
+    footer{
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .portfolio-arrows{
+        width: 63%;
+    }
+    .portfolio-arrow{
+        padding: 5px;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .timeline-elements{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .timeline-list-items-odd .content-up-opacity{
+        margin-top: 0px;
+    }
+    .timeline-list-items-even .content-up-opacity{
+        margin-top: 10px;
+    }
+    .timeline-list-items-odd{
+        gap: 60px;
+    }
+    .timeline-list-items-even{
+        grid-column-start: 1;
+        gap: 170px;
+        margin-top: 135px;
+        transform: translate(0%, 0%);
+    }
+    hr, .dot{
+        display: none;
+    }
+    .content-up{
+        bottom: 0;
+        margin-top: 20px;
+    }
+    .portfolio-carousel{
+        max-width: 830px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .portfolio-arrows{
+        width: 62%;
+    }
+    .portfolio-arrow{
+        padding: 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .portfolio-arrows{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .portfolio-arrows{
+        width: 57%;
+    }
+    .portfolio-buttons-active{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .timeline-content-up {
+        gap: 120px;
+    }
+    .timeline-content-down {
+        gap: 120px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .tablet{
+        display: none;
+    }
+    .tablet-2{
+        display: none;
+    }
+    .tablet-3{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .phone-2{
+        display: none;
+    }
+    .phone-3{
+        display: none;
+    }
+    .portfolio-carousel{
+        max-width: 522px;
+    }
+    .portfolio-title-active {
+        padding: 10px;
+    }
+    .portfolio-name-active {
+        padding: 10px;
+    }
+    .portfolio-desc-active {
+        padding: 10px;
+    }
+    .portfolio-full-desc-active{
+        padding: 10px;
+    }
+    .portfolio-lang-icons{
+        padding: 10px;
+    }
+    .portfolio-buttons-active{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .view-active {
+        padding: 5px;
+    }
+    .full-active {
+        padding: 5px;
+    }
+    .portfolio-arrows{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .portfolio-arrows{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .portfolio-arrows{
+        width: 40%;
+    }
+    .portfolio-title-active {
+        width: 300px;
+        bottom: 10px;
+    }
+    .portfolio-name-active {
+        width: 300px;
+        bottom: 10px;
+    }
+    .portfolio-desc-active {
+        width: 300px;
+        bottom: 10px;
+    }
+    .portfolio-full-desc-active{
+        width: 300px;
+        bottom: 10px;
+    }
+    .portfolio-lang-icons{
+        width: 300px;
+        bottom: 10px;
+    }
+    .macbook{
+        width: 400px;
+        margin: 60px auto;
+    }
+    .macbook-2{
+        width: 400px;
+        margin: 60px auto;
+    }
+    .macbook-3{
+        width: 400px;
+        margin: 60px auto;
+    }
+    .view-active{
+        width: 220px;
+    }
+    .full-active{
+        width: 220px;
+    }
+    .portfolio-carousel{
+        max-width: 405px;
+    }
+    .screens{
+        height: 290px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .role-name{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
+    .heading, .port-heading, .resume, .pref-heading, .name-field, .email-field, .message-field, .form-message-show {
+        width: 300px;
+    }
+    .form-message-show{
+        width: 300px;
+    }
+    .form-busy-message{
+        width: 300px;
+    }
+    .form-unavailable{
+        font-size: 18px;
+    }
+    .form-attention, .form-success, .form-fail{
+        font-size: 18px;
+    }
+    .pricing-block{
+        border: none;
+    }
+    .portfolio-arrows{
+        width: 38%;
+    }
+    .submit-form {
+        width: 300px;
+    }
+    .submit-form__disabled {
+        width: 300px;
+    }
+    .email__support{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .portfolio-arrows{
+        width: 36.5%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .burger-icon-open{
+        left: 80%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .portfolio-arrows{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .portfolio-arrows{
+        width: 27%;
+    }
+    .portfolio-arrow{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .portfolio-arrows{
+        margin-top: 180px;
+    }
+    .portfolio-carousel{
+        max-width: 300px;
+    }
+    .content-up{
+        margin-top: 20px;
+    }
+    .role-name{
+        font-size: 26px;
+    }
+    .heading-pref{
+        width: 200px;
+    }
+    .text-pref{
+        width: 200px;
+    }
+    .pricing-block{
+        border: none;
+    }
+    .name-field{
+        width: 200px;
+    }
+    .email-field{
+        width: 200px;
+    }
+    .message-field{
+        width: 200px;
+    }
+    .form-message-show{
+        width: 200px;
+    }
+    .form-busy-message{
+        width: 200px;
+    }
+    .form-unavailable{
+        font-size: 16px;
+    }
+    .form-attention, .form-success, .form-fail{
+        font-size: 16px;
+    }
+    .portfolio-title-active, .portfolio-name-active, .portfolio-desc-active, .portfolio-full-desc-active, .portfolio-lang-icons{
+        width: 200px;
+    }
+    .submit-form {
+        width: 200px;
+    }
+    .submit-form__disabled {
+        width: 200px;
+    }
+    .email__support{
+        width: 200px;
+    }
+    .heading, .pref-heading, .port-heading, .resume{
+        width: 200px;
+    }
+    .view-active {
+        width: 160px;
+        padding: 0;
+    }
+    .full-active {
+        width: 160px;
+        padding: 0;
+    }
+    .heading-pricing, .text-pricing{
+        width: 200px;
+    }
+    .usd, .uah, .usd-premium, .uah-premium{
+        width: 100px;
+    }
+    .macbook {
+        width: 300px;
+        margin: 120px auto;
+    }
+    .macbook-2 {
+        width: 300px;
+        margin: 120px auto;
+    }
+    .macbook-3 {
+        width: 300px;
+        margin: 120px auto;
+    }
+    .lang-icon img{
+        left: 13px;
+    }
+    .usual.icon{
+        left: 13px;
+    }
+    .php.icon{
+        left: 13px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .portfolio-arrows{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .photo-bckgrd img{
+        width: 280px;
+    }
+    .role-name{
+        font-size: 20px;
+    }
+    .portfolio-arrows{
+        width: 24%;
+        right: 3px;
+    }
+}
+
+@media screen and (max-width: 299px) {
+    .content-up{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .burger-icon-open{
+        left: 75%;
+    }
+}
+
+@media screen and (max-width: 288px) {
+}
+
+@media screen and (max-width: 280px) {
+    .portfolio-carousel{
+        position: relative;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
