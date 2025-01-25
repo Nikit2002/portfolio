@@ -521,6 +521,18 @@
     .email__support{
         width: 300px;
     }
+    .heading-pref{
+        width: 300px;
+    }
+    .text-pref{
+        width: 300px;
+    }
+    .heading-pricing{
+        width: 300px;
+    }
+    .text-pricing{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 415px) {
