@@ -482,7 +482,7 @@ marquee{
 }
 .program-languages{
   max-width: 1100px;
-  min-width: 280px;
+  overflow: hidden;
   min-height: 655px;
   margin: 0 auto;
   position: relative;
