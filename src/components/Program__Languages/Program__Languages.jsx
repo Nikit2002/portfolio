@@ -50,22 +50,6 @@ const Program__Languages = () => {
                     <a href="#"><img className="logo-hover" src={PHP__Coloured} /></a>
                     <a href="#"><img className="logo" src={React__logo} /></a>
                     <a href="#"><img className="logo-hover" src={React__logo__Coloured} /></a>
-                    <a href="#"><img className="logo" src={HTML5} /></a>
-                    <a href="#"><img className="logo-hover" src={HTML5__Coloured} /></a>
-                    <a href="#"><img className="logo" src={CSS3} /></a>
-                    <a href="#"><img className="logo-hover" src={CSS3__Coloured} /></a>
-                    <a href="#"><img className="logo" src={Git} /></a>
-                    <a href="#"><img className="logo-hover" src={Git__Coloured} /></a>
-                    <a href="#"><img className="logo" src={JavaScript} /></a>
-                    <a href="#"><img className="logo-hover" src={JavaScript__Coloured} /></a>
-                    <a href="#"><img className="logo" src={SASS} /></a>
-                    <a href="#"><img className="logo-hover" src={SASS__Coloured} /></a>
-                    <a href="#"><img className="logo" src={jQuery} /></a>
-                    <a href="#"><img className="logo-hover" src={jQuery__Coloured} /></a>
-                    <a href="#"><img className="logo" src={PHP} /></a>
-                    <a href="#"><img className="logo-hover" src={PHP__Coloured} /></a>
-                    <a href="#"><img className="logo" src={React__logo} /></a>
-                    <a href="#"><img className="logo-hover" src={React__logo__Coloured} /></a>
                 </div>
               </div>
              
