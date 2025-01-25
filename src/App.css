@@ -507,7 +507,7 @@ marquee{
   opacity: 1;
 }
 .scroller {
-  max-width: 950px;
+  max-width: 80%;
   gap: 20px;
   position: relative;
   left: 100px;
