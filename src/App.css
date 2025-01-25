@@ -2228,7 +2228,7 @@ footer p{
   margin-top: 20px;
   padding-right: 40px;
   left: 80%;
-  position: absolute;
+  position: unset;
 }
 .burger-menu-item{
   display: flex;
