@@ -214,10 +214,10 @@
         overflow: visible;
     }
     .preferences{
-        min-height: 1800px;
+        min-height: 1600px;
     }
     .pricing{
-        min-height: 2072px;
+        min-height: 1872px;
     }
     .diploma-and-titles{
         display: grid;
