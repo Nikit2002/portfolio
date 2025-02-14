@@ -22,7 +22,7 @@ const Form = () => {
 
   
   
-  const formMessagePrevent = () => {
+  const formMessagePrevent =  () => {
       if (nameField.current.value == "" || emailField.current.value == "" || messageField.current.value == "") {
           formMessage.current.classList.add("form-message-show");
           formMessage.current.children[0].remove();
@@ -65,7 +65,6 @@ const Form = () => {
     email__support.current.classList.add("show__hint");
   }
 
-  console.dir(email__support);
 
 
   const setFormDataToObject = (value, props) => {

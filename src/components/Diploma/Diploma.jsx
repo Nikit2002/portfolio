@@ -9,6 +9,7 @@ import Certificate_7 from '../../certificates/Certificate-7.jpg';
 import Certificate_8 from '../../certificates/Certificate-8.jpg';
 import Certificate_9 from '../../certificates/Certificate-9.jpg';
 import Certificate_10 from '../../certificates/Certificate-10.jpg';
+import Certificate_11 from '../../certificates/Certificate-11.jpg';
 import { useTranslation } from 'react-i18next';
 
 const Diploma = () => {
@@ -70,6 +71,12 @@ const Diploma = () => {
                 </div>
                 </div>
                 <div className="diploma__obj">
+                <a data-fancybox="gallery" href={Certificate_11}><img src={Certificate_11} /></a>
+                <div className="titles">
+                    <h2>TypeScript Fundamentals</h2>
+                </div>
+                </div>
+                <div className="diploma__obj">
                 <a data-fancybox="gallery" href={Certificate_7}><img src={Certificate_7} /></a>
                 <div className="titles">
                     <h2>IT English</h2>
@@ -81,29 +88,6 @@ const Diploma = () => {
                     <h2>Business English</h2>
                 </div>
                 </div>
-            	
-                
-		        
-		        
-                
-		        
-		        
-		        
-		        
-		        
-            </div>
-            
-            <div className="titles-row">
-            	
-               
-                
-                
-                
-                
-                
-                
-                
-                
             </div>
         </section>
 
@@ -192,7 +176,7 @@ const Diploma = () => {
 
             <div className="diploma-row-desktop">
                 <a data-fancybox="gallery" href={Certificate_9}><img src={Certificate_9} /></a>
-		        <a data-fancybox="gallery" href={Certificate_5}><img src={Certificate_5} /></a>
+		        <a data-fancybox="gallery" href={Certificate_11}><img src={Certificate_11} /></a>
 		        <a data-fancybox="gallery" href={Certificate_6}><img src={Certificate_6} /></a>
             </div>
 
@@ -201,7 +185,7 @@ const Diploma = () => {
                     <h2>React Essential</h2>
                 </div>
                 <div className="titles">
-                    <h2>JAVASCRIPT Essential</h2>
+                    <h2>TypeScript Fundamentals</h2>
                 </div>
                 <div className="titles">
                     <h2>HTML5 & CSS3 Advanced</h2>
@@ -286,6 +270,13 @@ const Diploma = () => {
                     <div className="front-shelfs"></div>
                     <div className="shadow-shelfs"></div>
                 </div>    
+
+                <div id="shelfs">
+
+                    <div className="top-shelfs"></div>
+                    <div className="front-shelfs"></div>
+                    <div className="shadow-shelfs"></div>
+                </div>
 
                 <div id="shelfs">
 

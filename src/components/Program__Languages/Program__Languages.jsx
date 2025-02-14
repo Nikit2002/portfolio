@@ -11,6 +11,8 @@ import SASS from '../../hard-skills logos/icon-sass.svg';
 import SASS__Coloured from '../../hard-skills logos/icon-sass-coloured.svg';
 import jQuery from '../../hard-skills logos/icon-jquery.svg';
 import jQuery__Coloured from '../../hard-skills logos/icon-jquery-coloured.svg';
+import TypeScript from '../../hard-skills logos/icon-typescript.svg';
+import TypeScript__Coloured from '../../hard-skills logos/icon-typescript-coloured.svg';
 import PHP from '../../hard-skills logos/icon-php.svg';
 import PHP__Coloured from '../../hard-skills logos/icon-php-coloured.svg';
 import React__logo from '../../hard-skills logos/icon-react-native.svg';
@@ -44,8 +46,8 @@ const Program__Languages = () => {
                     <a href="#"><img className="logo-hover" src={JavaScript__Coloured} /></a>
                     <a href="#"><img className="logo" src={SASS} /></a>
                     <a href="#"><img className="logo-hover" src={SASS__Coloured} /></a>
-                    <a href="#"><img className="logo" src={jQuery} /></a>
-                    <a href="#"><img className="logo-hover" src={jQuery__Coloured} /></a>
+                    <a href="#"><img className="logo" src={TypeScript} /></a>
+                    <a href="#"><img className="logo-hover" src={TypeScript__Coloured} /></a>
                     <a href="#"><img className="logo" src={PHP} /></a>
                     <a href="#"><img className="logo-hover" src={PHP__Coloured} /></a>
                     <a href="#"><img className="logo" src={React__logo} /></a>
@@ -60,8 +62,8 @@ const Program__Languages = () => {
                     <a href="#"><img className="logo-hover" src={JavaScript__Coloured} /></a>
                     <a href="#"><img className="logo" src={SASS} /></a>
                     <a href="#"><img className="logo-hover" src={SASS__Coloured} /></a>
-                    <a href="#"><img className="logo" src={jQuery} /></a>
-                    <a href="#"><img className="logo-hover" src={jQuery__Coloured} /></a>
+                    <a href="#"><img className="logo" src={TypeScript} /></a>
+                    <a href="#"><img className="logo-hover" src={TypeScript__Coloured} /></a>
                     <a href="#"><img className="logo" src={PHP} /></a>
                     <a href="#"><img className="logo-hover" src={PHP__Coloured} /></a>
                     <a href="#"><img className="logo" src={React__logo} /></a>

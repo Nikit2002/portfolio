@@ -1,7 +1,7 @@
 html{
   min-width: 280px;
   margin: 0 auto;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 header{
   width: 1000px;
@@ -10,6 +10,8 @@ header{
 body{
   background-color: rgb(12, 12, 12);
   margin: 0 auto;
+  padding: 0;
+  overflow-x: clip;
 }
 .nav-container{
   max-width: 1100px;
@@ -314,14 +316,16 @@ marquee{
   position: absolute;
   top: 0;
   transform: perspective(300px) rotateX(75deg);
-  box-shadow: inset 0 40px 130px -20px #b1afae;
+  /* box-shadow: inset 0 40px 130px -20px #b1afae; */
+  box-shadow: inset 0 40px 130px -20px #fff;
 }
 .front{
   width: 990px;
   height: 6px;
   position: absolute;
   bottom: 0;
-  box-shadow: inset 0 1px 1px 0 #776959, inset 0 -2px 20px -2px #b1afae;
+  /* box-shadow: inset 0 1px 1px 0 #776959, inset 0 -2px 20px -2px #b1afae; */
+  box-shadow: inset 0 1px 1px 0 #fff, inset 0 -2px 20px -2px #fff;
 }
 .shadow{
   width: 395px;
@@ -338,14 +342,16 @@ marquee{
   position: absolute;
   top: 0;
   transform: perspective(300px) rotateX(75deg);
-  box-shadow: inset 0 40px 130px -20px #b1afae;
+  /* box-shadow: inset 0 40px 130px -20px #b1afae; */
+  box-shadow: inset 0 40px 130px -20px #fff;
 }
 .front-shelfs{
   width: 900px;
   height: 6px;
   position: absolute;
   bottom: 0;
-  box-shadow: inset 0 1px 1px 0 #776959, inset 0 -2px 20px -2px #b1afae;
+  /* box-shadow: inset 0 1px 1px 0 #776959, inset 0 -2px 20px -2px #b1afae; */
+  box-shadow: inset 0 1px 1px 0 #fff, inset 0 -2px 20px -2px #fff;
 }
 .shadow-shelfs{
   width: 395px;
@@ -519,7 +525,7 @@ overflow: hidden;
 .scroller[data-animated="true"] .scroller__inner {
 animation: scroll 20s linear infinite;
 display: flex;
-width: calc(200px * 12);
+width: 1100px;
 }
 .scroller[data-direction="right"] {
 --_animation-direction: reverse;
@@ -536,7 +542,7 @@ width: calc(200px * 12);
 }
 .portfolio{
   width: 100%;
-  min-height: 1000px;
+  min-height: 800px;
   min-width: 280px;
   margin: 0 auto;
   position: relative;
@@ -845,6 +851,7 @@ width: calc(200px * 12);
   border-radius: 10px;
   position: relative;
   right: 100px;
+  z-index: 100;
 }
 .phone-2{
   width: 100px;
@@ -855,6 +862,7 @@ width: calc(200px * 12);
   border-radius: 10px;
   position: relative;
   right: 100px;
+  z-index: 100;
 }
 .phone-3{
   width: 100px;
@@ -865,6 +873,7 @@ width: calc(200px * 12);
   border-radius: 10px;
   position: relative;
   right: 100px;
+  z-index: 100;
 }
 .portfolio-title-active{
   width: 700px;
@@ -2221,7 +2230,8 @@ footer p{
   height: 40px;
   align-items: center;
   margin-top: 20px;
-  left: 85%;
+  padding-right: 40px;
+  left: 80%;
   position: absolute;
 }
 .burger-menu-item{
