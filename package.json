@@ -2,7 +2,7 @@
   "name": "web__portfolio",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,11 +14,13 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "emailjs-com": "^3.2.0",
     "express": "^4.21.2",
     "i18next": "^24.2.1",
+    "mongoose": "^8.11.0",
     "nodemailer": "^6.10.0",
     "nodemon": "^3.1.9",
     "react": "^18.3.1",
@@ -39,7 +41,7 @@
     "vite": "^6.0.5"
   },
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "eslint.config.js",
+  "main": "server.js",
   "keywords": [],
   "author": "",
   "license": "ISC"

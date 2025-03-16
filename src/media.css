@@ -88,6 +88,15 @@
     }
 }
 
+@media screen and (max-width: 950px) {
+    #shelf{
+        width: 700px;
+    }
+    #portfolio-shelf{
+        width: 800px;
+    }
+}
+
 @media screen and (max-width: 944px) {
     .menu-item{
         font-size: 20px;
@@ -228,7 +237,9 @@
     .heading h2{
         font-size: 18px;
     }
-    
+    #portfolio-shelf{
+        width: 720px;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -309,6 +320,15 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    #shelf{
+        width: 500px;
+    }
+    #portfolio-shelf{
+        width: 660px;
+    }
+}
+
 @media screen and (max-width: 699px) {
     .timeline-elements{
         grid-template-columns: repeat(1, 1fr);
@@ -373,6 +393,7 @@
     .timeline-content-down {
         gap: 120px;
     }
+    
 }
 
 @media screen and (max-width: 620px) {
@@ -427,13 +448,28 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    #portfolio-shelf{
+        width: 520px;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .portfolio-arrows{
         width: 45%;
     }
 }
 
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 500px) {
+    #shelf{
+        width: 300px;
+    }
+    #portfolio-shelf{
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 499px) {
     .portfolio-arrows{
         width: 40%;
     }
@@ -538,6 +574,12 @@
 @media screen and (max-width: 415px) {
     .portfolio-arrows{
         width: 36.5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #portfolio-shelf{
+        width: 400px;
     }
 }
 
@@ -674,6 +716,12 @@
     .portfolio-arrows{
         width: 24%;
         right: 3px;
+    }
+    #shelf{
+        width: 280px;
+    }
+    #portfolio-shelf{
+        width: 280px;
     }
 }
 

@@ -266,7 +266,7 @@ marquee{
   transition: 0.3s;
 }
 #shelf{
-  width: 400px;
+  width: 1100px;
   height: 71px;
   margin: 0 auto;
   z-index: 1;
@@ -275,15 +275,6 @@ marquee{
   position: relative;
 }
 #shelf-diploma{
-  width: 400px;
-  height: 71px;
-  margin: 0 auto;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-#portfolio-shelf{
   width: 100%;
   height: 71px;
   margin: 0 auto;
@@ -292,7 +283,17 @@ marquee{
   justify-content: center;
   position: relative;
 }
+#portfolio-shelf{
+  width: 900px;
+  height: 71px;
+  margin: 0 auto;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
 .shelfs-row{
+  width: 100%;
   display: none;
   gap: 195px;
   margin: 80px auto;
@@ -301,7 +302,7 @@ marquee{
   flex-direction: column;
 }
 #shelfs{
-  width: 500px;
+  width: 25%;
   height: 71px;
   margin: 0 auto;
   position: relative;
@@ -310,7 +311,7 @@ marquee{
   justify-content: center;
 }
 .top{
-  width: 830px;
+  width: 85%;
   height: 100px;
   background-size: 88%;
   position: absolute;
@@ -320,7 +321,7 @@ marquee{
   box-shadow: inset 0 40px 130px -20px #fff;
 }
 .front{
-  width: 990px;
+  width: 100%;
   height: 6px;
   position: absolute;
   bottom: 0;
@@ -328,7 +329,7 @@ marquee{
   box-shadow: inset 0 1px 1px 0 #fff, inset 0 -2px 20px -2px #fff;
 }
 .shadow{
-  width: 395px;
+  width: 100%;
   height: 6px;
   position: absolute;
   bottom: 0;
@@ -336,7 +337,7 @@ marquee{
   box-shadow: 0 10px 20px -2px black;
 }
 .top-shelfs{
-  width: 836px;
+  width: 85%;
   height: 100px;
   background-size: 88%;
   position: absolute;
@@ -346,7 +347,7 @@ marquee{
   box-shadow: inset 0 40px 130px -20px #fff;
 }
 .front-shelfs{
-  width: 900px;
+  width: 100%;
   height: 6px;
   position: absolute;
   bottom: 0;
@@ -354,7 +355,7 @@ marquee{
   box-shadow: inset 0 1px 1px 0 #fff, inset 0 -2px 20px -2px #fff;
 }
 .shadow-shelfs{
-  width: 395px;
+  width: 100%;
   height: 6px;
   position: absolute;
   bottom: 0;
@@ -509,7 +510,7 @@ marquee{
   opacity: 1;
 }
 .scroller {
-  max-width: 950px;
+  max-width: 100%;
   gap: 20px;
   position: relative;
   left: 100px;
@@ -525,7 +526,7 @@ overflow: hidden;
 .scroller[data-animated="true"] .scroller__inner {
 animation: scroll 20s linear infinite;
 display: flex;
-width: 1100px;
+width: 100%;
 }
 .scroller[data-direction="right"] {
 --_animation-direction: reverse;
@@ -818,7 +819,7 @@ width: 1100px;
   background-repeat: round;
   border-radius: 10px;
   position: relative;
-  left: 120px;
+  left: 60%;
   z-index: 100;
 }
 .tablet-2{
@@ -829,7 +830,7 @@ width: 1100px;
   background-repeat: round;
   border-radius: 10px;
   position: relative;
-  left: 120px; 
+  left: 60%; 
   z-index: 100; 
 }
 .tablet-3{
@@ -840,7 +841,7 @@ width: 1100px;
   background-repeat: round;
   border-radius: 10px;
   position: relative;
-  left: 120px;
+  left: 60%;
   z-index: 100;
 }
 .phone{
@@ -851,7 +852,7 @@ width: 1100px;
   background-repeat: round;
   border-radius: 10px;
   position: relative;
-  right: 100px;
+  right: 70%;
   z-index: 100;
 }
 .phone-2{
@@ -862,7 +863,7 @@ width: 1100px;
   background-repeat: round;
   border-radius: 10px;
   position: relative;
-  right: 100px;
+  right: 70%;
   z-index: 100;
 }
 .phone-3{
@@ -873,7 +874,7 @@ width: 1100px;
   background-repeat: round;
   border-radius: 10px;
   position: relative;
-  right: 100px;
+  right: 70%;
   z-index: 100;
 }
 .portfolio-title-active{
@@ -1883,6 +1884,7 @@ footer p{
   position: relative;
 }
 .screens{
+  width: 100%;
   display: grid;
   margin: 20px auto;
   grid-auto-flow: column;
