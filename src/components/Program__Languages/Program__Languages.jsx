@@ -15,6 +15,8 @@ import TypeScript from '../../hard-skills logos/icon-typescript.svg';
 import TypeScript__Coloured from '../../hard-skills logos/icon-typescript-coloured.svg';
 import PHP from '../../hard-skills logos/icon-php.svg';
 import PHP__Coloured from '../../hard-skills logos/icon-php-coloured.svg';
+import Angular from '../../hard-skills logos/icon-angular.svg';
+import Angular__Coloured from '../../hard-skills logos/icon-angular-coloured.svg';
 import React__logo from '../../hard-skills logos/icon-react-native.svg';
 import React__logo__Coloured from '../../hard-skills logos/icon-react-native-coloured.svg';
 import { addAnimation} from '../../js/autoScroller';
@@ -48,8 +50,8 @@ const Program__Languages = () => {
                     <a href="#"><img className="logo-hover" src={SASS__Coloured} /></a>
                     <a href="#"><img className="logo" src={TypeScript} /></a>
                     <a href="#"><img className="logo-hover" src={TypeScript__Coloured} /></a>
-                    <a href="#"><img className="logo" src={PHP} /></a>
-                    <a href="#"><img className="logo-hover" src={PHP__Coloured} /></a>
+                    <a href="#"><img className="logo" src={Angular} /></a>
+                    <a href="#"><img className="logo-hover" src={Angular__Coloured} /></a>
                     <a href="#"><img className="logo" src={React__logo} /></a>
                     <a href="#"><img className="logo-hover" src={React__logo__Coloured} /></a>
                     <a href="#"><img className="logo" src={HTML5} /></a>
@@ -64,8 +66,8 @@ const Program__Languages = () => {
                     <a href="#"><img className="logo-hover" src={SASS__Coloured} /></a>
                     <a href="#"><img className="logo" src={TypeScript} /></a>
                     <a href="#"><img className="logo-hover" src={TypeScript__Coloured} /></a>
-                    <a href="#"><img className="logo" src={PHP} /></a>
-                    <a href="#"><img className="logo-hover" src={PHP__Coloured} /></a>
+                    <a href="#"><img className="logo" src={Angular} /></a>
+                    <a href="#"><img className="logo-hover" src={Angular__Coloured} /></a>
                     <a href="#"><img className="logo" src={React__logo} /></a>
                     <a href="#"><img className="logo-hover" src={React__logo__Coloured} /></a>
                 </div>
