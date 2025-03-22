@@ -440,13 +440,13 @@ marquee{
 }
 .titles-row{
   display: grid;
-  gap: 90px;
+  gap: 70px;
   margin: 0 auto;
   justify-content: center;
   grid-auto-flow: column;
 }
 .titles{
-  width: 205px;
+  width: 220px;
   border: 1px solid #fff;
   text-align: center;
   display: flex;
@@ -2351,7 +2351,7 @@ footer p{
 .titles-row-desktop{
   display: flex;
   flex-wrap: wrap;
-  gap: 90px;
+  gap: 70px;
   margin: 0 auto;
   justify-content: center;
   grid-auto-flow: column;

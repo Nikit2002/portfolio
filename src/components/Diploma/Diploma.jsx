@@ -11,6 +11,7 @@ import Certificate_9 from '../../certificates/Certificate-9.jpg';
 import Certificate_10 from '../../certificates/Certificate-10.jpg';
 import Certificate_11 from '../../certificates/Certificate-11.jpg';
 import Certificate_12 from '../../certificates/Certificate-12.jpg';
+import Certificate_13 from '../../certificates/Certificate-13.jpg';
 import { useTranslation } from 'react-i18next';
 
 const Diploma = () => {
@@ -27,6 +28,12 @@ const Diploma = () => {
                 <a data-fancybox="gallery" href={Certificate_10}><img src={Certificate_10} /></a>
                 <div className="titles">
                     <h2>Frontend Developer (React)</h2>
+                </div>
+                </div>
+                <div className="diploma__obj">
+                <a data-fancybox="gallery" href={Certificate_13}><img src={Certificate_13} /></a>
+                <div className="titles">
+                    <h2>Frontend Developer (Angular)</h2>
                 </div>
                 </div>
                 <div className="diploma__obj">
@@ -104,11 +111,15 @@ const Diploma = () => {
 
         	<div className="diploma-row-desktop">
                 <a data-fancybox="gallery" href={Certificate_10}><img src={Certificate_10} /></a>
+                <a data-fancybox="gallery" href={Certificate_13}><img src={Certificate_13} /></a>
             </div>
 
             <div className="titles-row-desktop">
                 <div className="titles">
                     <h2>Frontend Developer (React)</h2>
+                </div>
+                <div className="titles">
+                    <h2>Frontend Developer (Angular)</h2>
                 </div>
             </div>
 
@@ -277,6 +288,13 @@ const Diploma = () => {
                     <div className="front-shelfs"></div>
                     <div className="shadow-shelfs"></div>
                 </div>    
+
+                <div id="shelfs">
+
+                    <div className="top-shelfs"></div>
+                    <div className="front-shelfs"></div>
+                    <div className="shadow-shelfs"></div>
+                </div>
 
                 <div id="shelfs">
 
